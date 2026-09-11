@@ -1,0 +1,508 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+boby{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: white;
+}
+.best{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 11%;
+    height: 15vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.Aplogo img{
+   width: 150px;
+   height: auto;
+   display: flex;
+   margin-right: 250px;
+   justify-content: space-around
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   gap: 25px ;
+   align-items: center;
+   margin-left: 200px;
+
+
+}
+nav a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+nav a:hover{
+   color: #f4b400;
+}
+nav :active{
+   color: black;
+}
+.activite{
+   color: rgb(213, 16, 81);
+}
+.apply{
+   background-color:rgb(255, 0, 0);
+   border-radius: 7px;
+   color: white;
+   padding: 3px 5px;
+   height: 35px;
+   width: 90px;
+   align-items: center;
+   display: flex;
+}
+.apply:hover{
+   background-color: rgb(213, 16, 81);
+}
+.contact-one{
+   height: 100vh;
+   background-image: url(apimage/image1-BsS-lnyw.png);
+   background-size: cover;
+   background-position: center;
+    margin-top: 15px;
+   display: flex;
+   align-items: center;
+
+   justify-content: center;
+   text-align: center;
+   animation: homepage, 10s infinite;
+}
+
+.overplay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0,);
+}
+.hopeson{
+   color: white;
+   position: relative;
+   z-index: 2;
+
+}
+.hopeson h1{
+   font-size: 40px;
+   font-weight: 800;
+   margin-bottom: 15px;
+}
+.hopeson span{
+   color: #f7b500;  
+}  
+.hopeson p{
+   font-size: 20px;
+   font-weight: 400;
+   width: 700px;
+   margin-top: 10px;
+}
+.home1{
+   min-height: 650;
+   position: relative;
+   bottom: 100px;
+   padding-right: 30px;
+   padding-left: 30px;
+   
+}
+.homecard{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   max-width: 1100px;
+   margin: 0 auto;
+   gap: 20px;
+   
+   
+}
+.homecr{
+   border-style: groove;
+   border-radius: 10px;
+   height: 300px;
+   width: 350px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: white;
+}
+.icon{
+   width: 65px;
+   height: 65px;
+   border-radius: 50px;
+   background-color:gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 25px;
+   font-size: 20px;
+}
+#homered{
+   background: red;
+   border-radius: 60px;
+}
+#homepurple{
+   background: purple;
+   border-radius: 60px;
+}
+#homegreen{
+   background: green;
+   border-radius: 60px;
+}
+.get{
+   border-style: groove;
+   text-decoration: none;
+   height: 50px;
+   width: 140px;
+   display: block;
+   justify-content: center;
+   background-color: red;margin: 50px auto;
+   border-radius: 5px;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 15px;
+}
+.get:hover{
+   background-color: brown;
+}
+.entroll{
+   display: flex;
+   justify-content: space-around;
+   background-color: black;
+   color: white;
+}
+.hen h1{
+   margin-bottom: 20px;
+   font-size: 50px;
+   font-weight: 700;
+}
+.hen p{
+  font-size: 16px;
+  font-weight: 200;
+
+}
+.hen{
+   padding-top: 200px;
+
+}
+.hvd{
+   border-style: groove;
+   border-radius: 15px;
+   height: 90vh;
+   object-fit: cover;
+   margin-top: 60px;
+   margin-bottom: 60px;
+}
+.bnh{
+   border-style: groove;
+   height: 40px;
+   width: 120px;
+   background-color: gold;
+   margin-top: 30px;
+   border-radius: 5px;
+
+}
+  .bed{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .bed h4{
+    margin-bottom: 10px;
+    color: red;
+  }
+  .bed h1{
+     margin-bottom: 10px;
+  }
+  .bed p{
+     font-weight: 500;
+   color: gray;
+  }
+.courses{
+   margin-top: 100px;
+}
+.container{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 50px;
+  color: aliceblue;
+ 
+
+}
+.h-1{
+   text-align: center;
+   margin-bottom: 40px;
+   padding-bottom: 50px;
+}
+#we{
+   color: red;
+}
+.course-two{
+   border-style: groove;
+   border-radius: 10px;
+   width: 80vw;
+   height: 80vh;
+}
+.p{
+   display: flex;
+   margin-top: 340px;
+   
+}
+#best{
+     background-image: url(apimage/course1-DPn4SHUt.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 80vw;
+     height: 80vh;
+     background-position: center;
+   
+  
+   
+}
+#delight{
+   background-image: url( apimage/course2-u5o9XgOd.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 80vw;
+   height: 80vh;
+   background-position: center;
+}
+#favour{
+   background-image: url(apimage/course3-BdohG3ZK.jpg);
+   width: 80vw;
+   height: 80vh;
+   background-position: center;
+   background-size: cover;
+   
+}
+.course-two:hover{
+   background-image: -o-repeating-linear-gradient(1.0s);
+}
+.table{
+   margin-top: 180px;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.table h3{
+   color: red;
+   font-size: 20px;
+   font-weight: 500;
+   text-align: center;
+}
+.table h1{
+   margin-bottom: 15px;
+   text-align: center;
+}
+.table p{
+   text-align: center;
+   color: gray;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.alltable{
+   display: flex;
+   border-style: hidden;
+   gap: 20px;
+   color: grey;
+   margin-bottom: 100px;
+}
+.bless{
+   border-style: groove;
+   border-radius: 10px;
+   height: 220px;
+   padding: 20px 20px 20px 20px;
+   background-color: gainsboro;
+
+  }
+  .fatima{
+    border-radius: 10px;
+   height: 220px;
+   padding: 20px 20px 20px 20px;
+   background-color: gainsboro;
+  }
+  .adewale{
+   border-radius: 10px;
+   height: 220px;
+   padding: 20px 20px 20px 20px;
+   background-color: gainsboro;
+  }
+.names{
+   color: black;
+   font-weight: 600;
+}
+.tb{
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   background-color: brown;
+   border-style: hidden;
+   color: white;
+   display: flex;
+   
+}
+.whatApp{
+position: fixed;
+right: 70px;
+bottom: 15px;
+background-color: #25d366;
+border-radius: 50%;
+
+}
+.wlogo{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+
+width: 50px;
+height: 50px;
+color: azure;
+
+}
+.Enroll{
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    background-color: aliceblue;
+    border-style: groove;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.en{
+    color: rgb(255, 0, 0);
+    text-decoration: none; 
+}
+.en:hover{
+     text-decoration: underline;
+}
+.hope{
+   display: flex;
+   gap: 30px;
+   background-color: black;
+   color:  bisque;
+   justify-content: space-between;
+   padding-top: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   align-items: center;
+   
+}
+.fl{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 100px;
+}
+.fl h5{
+   display: flex;
+   margin-bottom: 20px;
+ }
+
+.follow{
+   display: flex;
+   align-items: center;
+   gap:20px;
+   flex-direction: row;
+   font-size: 40px;
+}
+.follow-us{
+   background-color: white;
+   display: flex;
+   text-decoration: none;
+   align-items: self-start;
+   border-radius: 50px;
+   height: 20px;
+   width: 20px;
+   align-items: center;
+}
+.more h5{
+   font-size: 15px;
+   display: flex; 
+   margin-bottom: 20px;
+}
+.bn{
+   text-decoration: none;
+   margin-top: 20px;
+   width: 100px;
+   height: 40px;
+   border-radius: 250px;
+   background-color: #f4b400;
+}
+#now{
+   text-decoration: none;
+}
+.bn:hover{
+   background-color: greenyellow;
+}
+.conyell{
+   color: orange;
+}
+.more{
+     display: flex;
+   flex-direction: column;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.pagecon{
+   text-decoration: none;
+   font-size: 15px;
+   color: bisque;
+}
+.hpimg{
+   font-size: 13px;
+   font-weight: 300;
+   padding-bottom: 100px;
+
+}
+.p1{
+   padding-bottom: 10px;
+   height: 70px;
+   width: 150px;
+}
+.pagecon:hover{
+   color: azure;
+}
+.spa{
+ display: flex;
+   flex-direction: column;
+    gap: 5px;
+    padding-right: 100px;
+}
+.dc{
+   display: flex;
+   flex-direction: column;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    gap: 10px;
+}
+.spa h5{
+   padding-left: 80px;
+}
+.follow-us:hover{
+   background-color: rgb(213, 16, 81);
+}
+.fot{
+   display: flex;
+   justify-content: center;
+   color: antiquewhite;
+   background-color: black;
+   height: 80px;
+   padding-top: 20px;
+}

@@ -1,0 +1,394 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+boby{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: white;
+}
+.best{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 11%;
+    height: 15vh;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.Aplogo img{
+   width: 150px;
+   height: auto;
+   display: flex;
+   margin-right: 250px;
+   justify-content: space-around
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   gap: 25px ;
+   align-items: center;
+   margin-left: 200px;
+
+
+}
+nav a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+nav a:hover{
+   color: #f4b400;
+}
+nav :active{
+   color: black;
+}
+.activite{
+   color: rgb(213, 16, 81);
+}
+.contact-one{
+   height: 70vh;
+   background-image: url(apimage/courses-hero-CdZmS7M8.jpg);
+   background-size: cover;
+   background-position: center;
+    margin-top: 15px;
+   display: flex;
+   align-items: center;
+
+   justify-content: center;
+   text-align: center;
+}
+.overplay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0,);
+}
+.hopeson{
+   color: white;
+   position: relative;
+   z-index: 2;
+
+
+}
+.hopeson h1{
+   font-size: 40px;
+   font-weight: 800;
+   margin-bottom: 15px;
+}
+.hopeson span{
+   color: #f7b500;  
+}
+.hopeson p{
+   font-size: 20px;
+   font-weight: 400;
+   width: 700px;
+   margin-top: 10px;
+}
+.apply{
+   background-color:rgb(255, 0, 0);
+   border-radius: 7px;
+   color: white;
+   padding: 3px 5px;
+   height: 35px;
+   width: 90px;
+   align-items: center;
+   display: flex;
+}
+.con45{
+   max-width: 1200px;
+   margin: 60px auto;
+   display: flex;
+   align-items: flex-start;
+   gap: 80px;
+   justify-content: space-between;
+   background-color:aliceblue;
+
+
+}
+.contact-i{
+   margin-right: 50px;
+   display: grid;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 50px;
+}
+.contact-i h1 {
+   font-size: 32px;
+   font-weight: 700px;
+}
+.sub{
+   color: #777;
+   font-size: 15px;
+   margin-bottom: 50px;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+}
+.info-work{
+   display: flex;
+   align-items: flex-start;
+   gap: 18px;
+   margin-bottom: 30px;
+}
+.socials{
+   /* border: solid; */
+   display: flex;
+   align-items: center;
+   gap:10px;
+   flex-direction: row;
+}
+ .sicon{
+   display: flex;
+   text-decoration: none;
+   align-items: self-start;
+   border-radius: 50px;
+   color: gray;
+   height: 20px;
+   width: 20px;
+   align-items: center;
+}
+.sicon:hover{
+   background-color: #f4b400;
+}
+
+
+.icon{
+   width: 38px;
+   height: 38px;
+   min-height: 38px;
+   background: hsl(51, 89%, 48%);
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 17px;
+   color: white;
+   font-weight: 600;
+}
+.info-workh3{
+   font-size: 16px;
+   margin-bottom: 7px;
+}
+.info-work p{
+   color: #777;
+   font-size: 15px;
+   line-height: 1.5;
+   margin-bottom: 4px;
+}
+.info-work span{
+   color: hwb(38 7% 21%);
+   font-size: 13px;
+   line-height: 1.5;
+}
+.form{
+   padding: 10px 0;
+}
+label{
+   display: block;
+   font-size: 15px;
+   font-weight: 400;
+   margin-bottom: 9px;
+   color: black;
+}
+fieldset{
+   background-color: white;
+   height: 120vh;
+   width: 50vw;
+   display: grid;
+   padding-left: 30px;
+   border-radius: 5px;
+   padding-right: 30px;
+   margin-right: 30px;
+}
+input{
+   border-radius: 5px;
+   border-style: groove;
+   height: 10vh;
+   width: 50vw;
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+select{
+   border-radius: 5px;
+    border-style: groove;
+   height: 5vh;
+   width: 50vw;
+}
+textarea{
+   border: groove;
+   border-radius: 5px;
+   height: 15vh;
+   width: 50vw;
+}
+button{
+   background-color: rgb(255, 0, 0);
+   border-radius: 6px;
+   border-style: groove;
+   height: 8vh;
+   width: 50vw;
+   color: aliceblue;
+   text-align: center;
+   font-weight: 700;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.whatApp{
+position: fixed;
+right: 70px;
+bottom: 15px;
+background-color: #25d366;
+border-radius: 50%;
+
+}
+.wlogo{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+
+width: 50px;
+height: 50px;
+color: azure;
+
+}
+iframe{
+   border-style: groove;
+   width: 100vw;
+   height: 80vh;
+}
+.Enroll{
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    background-color: aliceblue;
+    border-style: groove;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.en{
+    color: rgb(255, 0, 0);
+    text-decoration: none; 
+}
+.en:hover{
+     text-decoration: underline;
+}
+.hope{
+   display: flex;
+   gap: 30px;
+   background-color: black;
+   color:  bisque;
+   justify-content: space-between;
+   padding-top: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   align-items: center;
+   
+}
+.fl{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 100px;
+}
+.fl h5{
+   display: flex;
+   margin-bottom: 20px;
+ }
+
+.follow{
+   display: flex;
+   align-items: center;
+   gap:20px;
+   flex-direction: row;
+   font-size: 40px;
+}
+.follow-us{
+   background-color: white;
+   display: flex;
+   text-decoration: none;
+   align-items: self-start;
+   border-radius: 50px;
+   height: 20px;
+   width: 20px;
+   align-items: center;
+}
+.more h5{
+   font-size: 15px;
+   display: flex; 
+   margin-bottom: 20px;
+}
+.bn{
+   text-decoration: none;
+   margin-top: 20px;
+   width: 100px;
+   height: 40px;
+   border-radius: 250px;
+   background-color: #f4b400;
+}
+#now{
+   text-decoration: none;
+}
+.bn:hover{
+   background-color: greenyellow;
+}
+.conyell{
+   color: orange;
+}
+.more{
+     display: flex;
+   flex-direction: column;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.pagecon{
+   text-decoration: none;
+   font-size: 15px;
+   color: bisque;
+}
+.hpimg{
+   font-size: 13px;
+   font-weight: 300;
+   padding-bottom: 100px;
+
+}
+.p1{
+   padding-bottom: 10px;
+   height: 70px;
+   width: 150px;
+}
+.pagecon:hover{
+   color: azure;
+}
+.spa{
+ display: flex;
+   flex-direction: column;
+    gap: 5px;
+    padding-right: 100px;
+}
+.dc{
+   display: flex;
+   flex-direction: column;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    gap: 10px;
+}
+.spa h5{
+   padding-left: 80px;
+}
+.follow-us:hover{
+   background-color: rgb(213, 16, 81);
+}
+.fot{
+   display: flex;
+   justify-content: center;
+   color: antiquewhite;
+   background-color: black;
+   height: 80px;
+   padding-top: 20px;
+}
